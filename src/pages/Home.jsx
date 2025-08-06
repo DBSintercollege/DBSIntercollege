@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 const Home = () => {
   return (
@@ -19,9 +20,11 @@ const Home = () => {
               A place where learning begins, dreams grow, and leaders are made.
               Explore our holistic and inclusive approach to education.
             </p>
+            <Link to="/gallery">
             <button className="bg-emerald-400 hover:bg-gray-300 active:bg-gray-300 text-black font-semibold py-2 px-6 rounded shadow cursor-pointer">
               Explore Campus
             </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -146,7 +149,10 @@ const Home = () => {
         
           <h1 className="font-bold text-3xl sm:text:3xl">For Appointment Today!</h1>
           <p className="text-sm"> For details of admission and other query</p>
+          <Link to="/contact">
           <button className="bg-emerald-400 hover:bg-gray-300 active:bg-gray-300 text-black font-semibold py-2 px-6 rounded shadow cursor-pointer mb-5">Contact us</button>
+          
+          </Link> 
         
       </div>
 
