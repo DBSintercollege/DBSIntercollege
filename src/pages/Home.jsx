@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div className="bg-white text-gray-800 font-sans">
       {/* Hero Banner */}
-      <section className="  text-emerald-900 py-20   bg-[url('https://raghavfoundation.org.in/wp-content/uploads/2023/05/school-image.jpg')] min-h-screen bg-cover bg-center flex items-center justify-center">
-        <div className="flex flex-col sm:flex-row w-full text-center bg-white/85 py-10 justify-center items-center ">
+      <section className="  text-emerald-900 py-20   bg-[url('./src/assets/image.jpg')] min-h-screen bg-cover bg-center flex items-center justify-center">
+        <div className="flex flex-col sm:flex-row w-full text-center bg-white/70 py-10 justify-center items-center ">
           <img
             src="https://static.vecteezy.com/system/resources/thumbnails/046/318/995/small/smiling-schoolboy-holding-a-book-with-backpack-on-transparent-background-png.png"
             alt=""
@@ -14,7 +14,7 @@ const Home = () => {
           />
           <div className="animate-fade-in">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 ">
-              Welcome to D.B.S Inter College School
+              Welcome to D.B.S Inter College 
             </h1>
             <p className="text-sm md:text-sm mb-6 max-w-xl mx-auto">
               A place where learning begins, dreams grow, and leaders are made.
@@ -172,7 +172,7 @@ const Home = () => {
             that develops intellectual, social, emotional, and physical skills
             through innovative and engaging learning environments.
           </p>
-        </div>
+        </div>   
       </section>
 
       {/* School Stats */}

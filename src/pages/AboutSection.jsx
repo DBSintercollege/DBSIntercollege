@@ -1,13 +1,14 @@
 import React from "react";
 import { FaBullseye, FaEye } from "react-icons/fa";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa"
+import { Link } from "react-router";
 
 const AboutSection = () => {
   return (
     <div>
 
     <section className="bg-white py-20 px-4 sm:px-8 lg:px-20">
-      <div className="max-w-7xl mx-auto space-y-16">
+      <div className="max-w-7xl mx-auto space-y-10 text-center">
 
         {/* Main About Section */}
         <div className="flex flex-col md:flex-row items-center gap-10">
@@ -93,6 +94,9 @@ const AboutSection = () => {
     <p className="mt-4 font-semibold text-emerald-700">– Mrs. Renu Sharma, Principal</p>
   </div>
 </div>
+<Link className="text-blue-500 text-end" to={"/committe"}>
+Committee Members
+</Link>
       </div>
 
       

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const classData = {
   "8": {
     password: "class8pass",
-    pdfUrl: "Basant-bhatt-5-670E1D5D572E0-2024-10-15-07-44-29.pdf",
+    pdfUrl: "/src/assets/class7.pdf",
   },
   "9": {
     password: "class9pass",
@@ -37,11 +37,11 @@ const ResultPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 py-20 px-4 sm:px-8 lg:px-20">
+    <div className="min-h-screen bg-gray-100 py-30 px-4 sm:px-8 lg:px-20">
       <h2 className="text-4xl font-bold text-center text-emerald-700 mb-2">
          Student Result Portal
       </h2>
-      <h1 className="text-xl font-bold text-center text-emerald-600 mb-10">Select Your class to access result</h1>
+      <h1 className="text-xl font-bold text-center text-emerald-600 mb-10">Select Your class to access result</h1> 
 
 
       {!selectedClass ? (

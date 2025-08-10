@@ -7,15 +7,15 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBndwJxs9uYSNw-QdvXE7CiL6v6VuC2KuE",
-  authDomain: "dbs-inter-college-64d4d.firebaseapp.com",
-  projectId: "dbs-inter-college-64d4d",
-  storageBucket: "dbs-inter-college-64d4d.firebasestorage.app",
-  messagingSenderId: "1077421472562",
-  appId: "1:1077421472562:web:bff52e2c710f191739752b"
+  apiKey: "AIzaSyCf4qOnKVVpCoUc7Drom-34v1B8RmIneUw",
+  authDomain: "dbs-inter-college-9f792.firebaseapp.com",
+  projectId: "dbs-inter-college-9f792",
+  storageBucket: "dbs-inter-college-9f792.firebasestorage.app",
+  messagingSenderId: "564114904282",
+  appId: "1:564114904282:web:0a828aec835c203d4881e3"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db=getFirestore(app);
-export const auth = getAuth(app);
+export const auth=getAuth(app);

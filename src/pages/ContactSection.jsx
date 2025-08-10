@@ -16,7 +16,7 @@ const ContactSection = () => {
       });
   };
   return (
-    <section className="bg-gray-100 py-20 px-4 sm:px-8 lg:px-20" id="contact">
+    <section className="bg-gray-100 py-30 px-4 sm:px-8 lg:px-20" id="contact">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-emerald-700 mb-12">
            Contact Us

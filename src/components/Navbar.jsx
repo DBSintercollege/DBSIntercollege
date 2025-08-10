@@ -15,20 +15,25 @@ const Navbar = () => {
   return (
     <>
       {/* Main Navbar */}
-      <nav className="bg-emerald-800 text-stone-200 px-6 py-4 shadow-md fixed w-full z-50 ">
-        <div className="flex items-center justify-between max-w-7xl mx-auto">
-          <Link className="text-2xl font-bold">Name</Link>
+      <nav className="bg-emerald-800 text-stone-200 px-10 py-2 shadow-md fixed w-full z-50 ">
+        <div className="flex items-center justify-between max-w-full mx-auto">
+          <Link className="text-2xl font-bold">
+          <img src="./src/assets/1000091118.png"  alt="School logo"  className='w-20'/>
+          
+          </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex gap-8 font-medium">
-            <Link to="/" className="hover:text-green-300 cursor-pointer">Home</Link>
-            <Link to={"/about"} className="hover:text-green-300 cursor-pointer">About DBS</Link>
-            <Link to="/gallery" className="hover:text-green-300 cursor-pointer">Gallery</Link>
-            <Link  to="/notice" className="hover:text-green-300 cursor-pointer">Notice</Link>
-            <Link to={"/contact"} className="hover:text-green-300 cursor-pointer">Contact</Link>
-            <Link to={"/faculty"} className="hover:text-green-300 cursor-pointer">Faculty</Link>
-            <Link to={"/result"} className="hover:text-green-300 cursor-pointer">Results</Link>
-            <Link to={"/complain"} className="hover:text-green-300 cursor-pointer">Complains</Link>
+          <div className="hidden md:flex gap-10 font-medium">
+            <Link to="/" className="hover:text-green-300 cursor-pointer font-bold">Home</Link>
+            <Link to={"/about"} className="hover:text-green-300 cursor-pointer font-bold">About DBS</Link>
+            <Link to="/gallery" className="hover:text-green-300 cursor-pointer font-bold">Gallery</Link>
+            <Link  to="/notice" className="hover:text-green-300 cursor-pointer font-bold">Notice</Link>
+            <Link to={"/contact"} className="hover:text-green-300 cursor-pointer font-bold">Contact</Link>
+            <Link to={"/faculty"} className="hover:text-green-300 cursor-pointer font-bold">Faculty</Link>
+            <Link to={"/result"} className="hover:text-green-300 cursor-pointer font-bold">Results</Link>
+            <Link to={"/complain"} className="hover:text-green-300 cursor-pointer font-bold">Complains</Link>
+            <Link to={"/achivement"} className="hover:text-green-300 cursor-pointer font-bold">Achivements</Link>
+            <Link to={"/alumni"} className="hover:text-green-300 cursor-pointer font-bold">Alumni</Link>
           </div>
 
           {/* Hamburger Button (Mobile) */}
@@ -66,6 +71,8 @@ const Navbar = () => {
             <Link to={"/notice"} className="hover:text-green-300 cursor-pointer" onClick={closeSidebar}>Notice</Link>
             <Link to={"/result"} className="hover:text-green-300 cursor-pointer" onClick={closeSidebar}>Result</Link>
             <Link to={"/complain"} className="hover:text-green-300 cursor-pointer" onClick={closeSidebar}>Complains</Link>
+            <Link to={"/achivement"} className="hover:text-green-300 cursor-pointer " onClick={closeSidebar}>Achivements</Link>
+            <Link to={"/alumni"} className="hover:text-green-300 cursor-pointer " onClick={closeSidebar}>Alumni</Link>
             
           </ul>
         </div>

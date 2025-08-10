@@ -1,5 +1,5 @@
 
-import { Navigate, Route, Routes } from 'react-router'
+import { Link, Navigate, Route, Routes } from 'react-router'
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
@@ -17,6 +17,9 @@ import { useEffect, useState } from 'react'
 import { onAuthStateChanged } from 'firebase/auth'
 import { auth } from './firebase'
 import ContactSection from './pages/ContactSection'
+import Commitee from './pages/Commitee'
+import Achivement from './pages/Achivement'
+import Alumni from './pages/Alumni'
 
 
 
@@ -46,14 +49,15 @@ function App() {
    <Route path='/' element={<Home/>}/>
    <Route path='/about' element={<AboutSection/>}/>
    <Route path='/gallery' element={<GallerySection/>}/>
-   
-   
+   <Route path='/committe' element={<Commitee/>}/>
+   <Route path='alumni' element={<Alumni/>} />
    <Route path='/faculty' element={<FacultySection/>}/>
    <Route path='/result' element={<ResultPage/>}/>
    <Route path='/complain' element={<ComplaintForm/>}/>
    <Route path='/contact' element={<ContactSection/>}/>
    <Route path='/notice' element={<NoticePage/>}/>
    <Route path="/admin" element={<AdminLogin />} />
+   <Route path="/achivement" element={<Achivement />} />
   <Route
           path="/admin-notice-panel"
           element={user ? <AdminNoticePanel /> : <Navigate to="/admin" replace />} />
@@ -72,10 +76,10 @@ function App() {
           <div>
             <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="hover:text-green-400">Admissions</a></li>
-              <li><a href="#" className="hover:text-green-400">Academics</a></li>
-              <li><a href="#" className="hover:text-green-400">Gallery</a></li>
-              <li><a href="#" className="hover:text-green-400">Contact</a></li>
+              <li><Link to={"/gallery"} className="hover:text-green-400">Gallery</Link></li>
+              <li><Link  to={"/achivement"} className="hover:text-green-400">Achivements</Link></li>
+              
+              <li><Link  to={"/contact"} className="hover:text-green-400">Contact</Link></li>
             </ul>
           </div>
           <div>
