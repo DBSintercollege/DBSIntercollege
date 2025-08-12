@@ -20,6 +20,7 @@ import ContactSection from './pages/ContactSection'
 import Commitee from './pages/Commitee'
 import Achivement from './pages/Achivement'
 import Alumni from './pages/Alumni'
+import Video from './pages/Video'
 
 
 
@@ -58,6 +59,8 @@ function App() {
    <Route path='/notice' element={<NoticePage/>}/>
    <Route path="/admin" element={<AdminLogin />} />
    <Route path="/achivement" element={<Achivement />} />
+   <Route path="/video" element={<Video />} />
+
   <Route
           path="/admin-notice-panel"
           element={user ? <AdminNoticePanel /> : <Navigate to="/admin" replace />} />

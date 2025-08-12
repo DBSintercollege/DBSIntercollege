@@ -16,7 +16,7 @@ const Navbar = () => {
     <>
       {/* Main Navbar */}
       <nav className="bg-emerald-800 text-stone-200 px-10 py-2 shadow-md fixed w-full z-50 ">
-        <div className="flex items-center justify-between max-w-full mx-auto">
+        <div className="flex items-center justify-between max-w-full mx-auto"> 
           <Link className="text-2xl font-bold">
           <img src="./src/assets/1000091118.png"  alt="School logo"  className='w-20'/>
           
@@ -36,7 +36,7 @@ const Navbar = () => {
             <Link to={"/alumni"} className="hover:text-green-300 cursor-pointer font-bold">Alumni</Link>
           </div>
 
-          {/* Hamburger Button (Mobile) */}
+          {/* Hamburger Button (Mobile) */} 
           <button
             className="md:hidden text-3xl"
             onClick={toggleSidebar}

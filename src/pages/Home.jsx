@@ -4,6 +4,7 @@ import { Link } from "react-router";
 const Home = () => {
   return (
     <div className="bg-white text-gray-800 font-sans">
+      
       {/* Hero Banner */}
       <section className="  text-emerald-900 py-20   bg-[url('./src/assets/image.jpg')] min-h-screen bg-cover bg-center flex items-center justify-center">
         <div className="flex flex-col sm:flex-row w-full text-center bg-white/70 py-10 justify-center items-center ">

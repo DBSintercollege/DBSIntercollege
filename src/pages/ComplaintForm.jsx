@@ -92,6 +92,7 @@ const ComplainForm = () => {
               className="w-full bg-emerald-700 hover:bg-emerald-800 py-3 rounded font-semibold text-white"
             >
               Submit
+             
             </button>
           </form>
         )}
