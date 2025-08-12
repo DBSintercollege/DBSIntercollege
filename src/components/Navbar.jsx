@@ -34,6 +34,7 @@ const Navbar = () => {
             <Link to={"/complain"} className="hover:text-green-300 cursor-pointer font-bold">Complains</Link>
             <Link to={"/achivement"} className="hover:text-green-300 cursor-pointer font-bold">Achivements</Link>
             <Link to={"/alumni"} className="hover:text-green-300 cursor-pointer font-bold">Alumni</Link>
+            <Link to={"/video"} className="hover:text-green-300 cursor-pointer font-bold">Video</Link>
           </div>
 
           {/* Hamburger Button (Mobile) */} 
@@ -73,6 +74,7 @@ const Navbar = () => {
             <Link to={"/complain"} className="hover:text-green-300 cursor-pointer" onClick={closeSidebar}>Complains</Link>
             <Link to={"/achivement"} className="hover:text-green-300 cursor-pointer " onClick={closeSidebar}>Achivements</Link>
             <Link to={"/alumni"} className="hover:text-green-300 cursor-pointer " onClick={closeSidebar}>Alumni</Link>
+            <Link to={"/video"} className="hover:text-green-300 cursor-pointer " onClick={closeSidebar}>Video</Link>
             
           </ul>
         </div>
