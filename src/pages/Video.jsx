@@ -1,4 +1,5 @@
 import React from "react";
+import video from "./src/assets/video.mp4"
 
 const Video = () => {
   // Example video sources
@@ -29,7 +30,7 @@ const Video = () => {
         <h3 className="text-lg font-semibold mb-2">Local Video</h3>
         <video
           className="w-full rounded-lg"
-          src="./src/assets/video.mp4"
+          src={video}
           controls
           playsInline
         />
