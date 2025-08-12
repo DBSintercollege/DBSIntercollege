@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router";
+import backgroundimg from '../assets/image.jpg'
 
 const Home = () => {
   return (
     <div className="bg-white text-gray-800 font-sans">
       
       {/* Hero Banner */}
-      <section className="  text-emerald-900 py-20   bg-[url('./src/assets/image.jpg')] min-h-screen bg-cover bg-center flex items-center justify-center">
+      <section style={{backgroundImage:`url(${backgroundimg}`}} className={` text-emerald-900 py-20   min-h-screen bg-cover bg-center flex items-center justify-center`}>
         <div className="flex flex-col sm:flex-row w-full text-center bg-white/70 py-10 justify-center items-center ">
           <img
             src="https://static.vecteezy.com/system/resources/thumbnails/046/318/995/small/smiling-schoolboy-holding-a-book-with-backpack-on-transparent-background-png.png"

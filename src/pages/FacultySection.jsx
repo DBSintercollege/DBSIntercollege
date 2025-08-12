@@ -1,4 +1,13 @@
 import React from "react";
+import staf1 from "../assets/staf1.jpg"
+import staf2 from "../assets/staf2.jpg"
+import staf3 from "../assets/staf3.jpg"
+import staf4 from "../assets/staf4.jpg"
+import staf5 from "../assets/staf5.jpg"
+import staf6 from "../assets/staf6.jpg"
+import staf7 from "../assets/staf7.jpg"
+import staf8 from "../assets/staf8.jpg"
+import staf9 from "../assets/staf9.jpg"
 
 const facultyList = [
   {
@@ -6,7 +15,7 @@ const facultyList = [
     name: "Mr. Rajesh Sharma",
     subject: "Mathematics Teacher",
     education: "M.Sc. Mathematics, B.Ed.",
-    image: "./src/assets/staf1.jpg",
+    image: staf1,
     description: "Dedicated to making math easy and fun for all students.",
   },
   {
@@ -14,7 +23,7 @@ const facultyList = [
     name: "Mrs. Anita Verma",
     subject: "Science Teacher",
     education: "M.Sc. Physics, B.Ed.",
-    image: "./src/assets/staf2.jpg",
+    image: staf2,
     description: "Inspires young minds through engaging science activities.",
   },
   {
@@ -22,7 +31,7 @@ const facultyList = [
     name: "Mr. Arvind Gupta",
     subject: "English Teacher",
     education: "M.A. English, B.Ed.",
-    image: "./src/assets/staf3.jpg",
+    image: staf3,
     description: "Encourages creativity and communication through language.",
   },
   {
@@ -30,7 +39,7 @@ const facultyList = [
     name: "Mrs. Sunita Joshi",
     subject: "School Principal",
     education: "M.A. Education, M.Ed.",
-    image: "./src/assets/staf4.jpg",
+    image: staf4,
     description: "Leading the school with experience and strong values.",
   },
   {
@@ -38,7 +47,7 @@ const facultyList = [
     name: "Mrs. Sunita Joshi",
     subject: "School Principal",
     education: "M.A. Education, M.Ed.",
-    image: "./src/assets/staf5.jpg",
+    image: staf5,
     description: "Leading the school with experience and strong values.",
   },
   {
@@ -46,7 +55,7 @@ const facultyList = [
     name: "Mrs. Sunita Joshi",
     subject: "School Principal",
     education: "M.A. Education, M.Ed.",
-    image: "./src/assets/staf6.jpg",
+    image: staf6,
     description: "Leading the school with experience and strong values.",
   },
   {
@@ -54,7 +63,7 @@ const facultyList = [
     name: "Mrs. Sunita Joshi",
     subject: "School Principal",
     education: "M.A. Education, M.Ed.",
-    image: "./src/assets/staf7.jpg",
+    image: staf7,
     description: "Leading the school with experience and strong values.",
   },
   {
@@ -62,7 +71,7 @@ const facultyList = [
     name: "Mrs. Sunita Joshi",
     subject: "School Principal",
     education: "M.A. Education, M.Ed.",
-    image: "./src/assets/staf8.jpg",
+    image: staf8,
     description: "Leading the school with experience and strong values.",
   },
   {
@@ -70,7 +79,7 @@ const facultyList = [
     name: "Mrs. Sunita Joshi",
     subject: "School Principal",
     education: "M.A. Education, M.Ed.",
-    image: "./src/assets/staf9.jpg",
+    image: staf9,
     description: "Leading the school with experience and strong values.",
   },
 ];
