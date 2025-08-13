@@ -7,7 +7,7 @@ const Home = () => {
     <div className="bg-white text-gray-800 font-sans">
       
       {/* Hero Banner */}
-      <section style={{backgroundImage:`url(${backgroundimg}`}} className={` text-emerald-900 py-20   min-h-screen bg-cover bg-center flex items-center justify-center`}>
+      <section style={{backgroundImage:`url(${backgroundimg}`, backgroundSize:"cover", backgroundPosition:"center" }} className={` text-emerald-900 py-20   h-screen w-full flex items-center justify-center`}>
         <div className="flex flex-col sm:flex-row w-full text-center bg-white/70 py-10 justify-center items-center ">
           <img
             src="https://static.vecteezy.com/system/resources/thumbnails/046/318/995/small/smiling-schoolboy-holding-a-book-with-backpack-on-transparent-background-png.png"
