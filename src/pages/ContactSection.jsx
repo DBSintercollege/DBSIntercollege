@@ -34,13 +34,13 @@ const ContactSection = () => {
 
             <div>
               <h3 className="text-2xl font-semibold mb-2">Phone</h3>
-              <p>📞 +91 </p>
-              <p>📞 +91 </p>
+              <p>📞 +91 9684991667</p>
+              <p>📞 +91 7579205786</p>
             </div>
 
             <div>
               <h3 className="text-2xl font-semibold mb-2">Email</h3>
-              <p> dbsintercollege@.com</p>
+              <p> dbsintercollege@gmail.com</p>
               
             </div>
           </div>

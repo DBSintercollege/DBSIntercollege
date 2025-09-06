@@ -7,7 +7,7 @@ const AboutSection = () => {
   return (
     <div>
 
-    <section className="bg-white py-20 px-4 sm:px-8 lg:px-20">
+    <section className="bg-white py-30 px-4 sm:px-8 lg:px-20">
       <div className="max-w-7xl mx-auto space-y-10 text-center">
 
         {/* Main About Section */}
@@ -118,7 +118,8 @@ Committee Members
 
           <div className="flex items-start gap-4 mb-4">
             <FaPhoneAlt className="text-emerald-700 mt-1" size={18} />
-            <p className="text-gray-700">+91 </p>
+            <p className="text-gray-700">+91 9684991667</p>
+            <p className="text-gray-700">+91 7579205786</p>
           </div>
 
           <div className="flex items-start gap-4">

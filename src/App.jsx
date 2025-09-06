@@ -94,6 +94,7 @@ function App() {
         </div>
         <div className="text-center text-sm text-gray-400 mt-10">
           © {new Date().getFullYear()} D.B.S Inter college. All rights reserved.
+          <p className='text-[2px] text-gray-500'>Basant bhatt</p>
         </div>
       </footer>
     </div>
